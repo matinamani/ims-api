@@ -1,0 +1,3 @@
+echo "\033[0;33m ============= commiting... ============= \033[0m"
+pnpm run commitlint ${1}
+pnpm run cspell "$1"

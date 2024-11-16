@@ -1,0 +1,19 @@
+{
+  "$schema": "https://raw.githubusercontent.com/streetsidesoftware/cspell/main/cspell.schema.json",
+  "version": "0.2",
+  "dictionaryDefinitions": [
+    {
+      "name": "ims-en",
+      "path": "./cspell/en.txt",
+      "addWords": true
+    }
+  ],
+  "dictionaries": ["ims-en", "lorem-ipsum"],
+  "ignorePaths": [
+    "node_modules",
+    "/cspell/en.txt",
+    "package.json",
+    "pnpm-lock.yaml"
+  ],
+  "import": ["@cspell/dict-lorem-ipsum/cspell-ext.json"]
+}
