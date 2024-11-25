@@ -1,2 +1,7 @@
 tseslint
 commitlint
+snaplet
+datasource
+cuid
+varchar
+signup

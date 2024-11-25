@@ -4,6 +4,12 @@
     "outDir": "dist",
     "strict": true,
     "lib": ["esnext"],
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "target": "ES6",
+    "paths": {
+      "@db": ["./prisma/index.ts"],
+      "@config": ["./src/config/index.ts"]
+    }
   }
 }
