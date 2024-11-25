@@ -11,5 +11,6 @@
       "@db": ["./prisma/index.ts"],
       "@config": ["./src/config/index.ts"]
     }
-  }
+  },
+  "include": ["src/**/*.ts"]
 }

@@ -21,3 +21,4 @@ export const LoginUserSchema = CreateUserSchema.pick({
 
 export type CreateUserDTO = z.infer<typeof CreateUserSchema>
 export type LoginUserDTO = z.infer<typeof LoginUserSchema>
+export type RolesType = 'ADMIN' | 'SELLER' | 'CUSTOMER'
