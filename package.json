@@ -50,11 +50,8 @@
     "config": "prisma/seed/seed.config.ts"
   },
   "lint-staged": {
-    "*.{json,html}": [
+    "*.{json,html,md,yaml,yml}": [
       "prettier --write",
-      "cspell --no-must-find-files"
-    ],
-    "*.{md,yaml,yml}": [
       "cspell --no-must-find-files"
     ],
     "*.{ts,js}(x)?": [
